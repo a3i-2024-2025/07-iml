@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "06-cst"
+version = "0.1.0"
+description = ""
+authors = ["Michele Lombardi <michele.lombardi2@unibo.it>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.3"
+scikit-learn = "^1.5.2"
+matplotlib = "^3.9.2"
+pydot = "^3.0.2"
+tensorflow = "^2.18.0"
+rise = "^5.7.1"
+notebook = "^6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
